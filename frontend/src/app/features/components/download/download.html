@@ -1,0 +1,22 @@
+<div class="container grid place-items-center h-screen">
+  <!-- <p>download works!</p> -->
+
+  <div class="p-8 w-96 md:w-320">
+    <div>
+        <mat-form-field class="example-full-width">
+          <mat-label>URL</mat-label>
+          <input matInput [formControl]="url">
+        </mat-form-field>
+    </div>
+
+    <div>
+      <button matFab extended (click)="adicionarProduto()">
+        <mat-icon>download</mat-icon>
+        Download
+      </button>
+    </div>
+  </div>
+
+  <h1>{{ url.value }}</h1>
+
+</div>

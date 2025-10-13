@@ -1,0 +1,24 @@
+<div>
+  <mat-sidenav-container class="example-container bg-red-100 w-2xs">
+
+    <mat-sidenav class="bg-red-100 teste" #sidenav mode="side" [(opened)]="opened">
+      Sidenav content
+    </mat-sidenav>
+
+  </mat-sidenav-container>
+
+</div>
+<!-- <mat-sidenav-container class="example-container w-2xs">
+  <mat-sidenav class="bg-blue-500 teste" #sidenav mode="side" [(opened)]="opened" (opened)="events.push('open!')"
+    (closed)="events.push('close!')">
+    Sidenav content
+    <p><button matButton (click)="sidenav.toggle()">sidenav.toggle()</button></p>
+  </mat-sidenav>
+    <mat-sidenav class="bg-blue-500 teste" #sidenav mode="side" [(opened)]="opened">
+    Sidenav content
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <p><button matButton (click)="sidenav.toggle()">sidenav.toggle()</button></p>
+  </mat-sidenav-content>
+</mat-sidenav-container> -->
