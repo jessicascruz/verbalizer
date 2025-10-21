@@ -1,0 +1,5 @@
+yt-dlp
+speechrecognition
+pydub
+pytube
+moviepy
